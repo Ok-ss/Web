@@ -1,0 +1,889 @@
+html, body{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    color: #575757;
+
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.orange-text{
+    color: #FB9333;
+}
+
+.Main-page{
+    width: 100%;
+    background: linear-gradient(to top right, #ffffff 60%, #ffe1b7 120%);
+    overflow: hidden;
+}
+
+.Main-page .header{ /*тут сам хедер розтягується, але такест - ні (бо font-size в пікселях). Так лишити, чи */
+    width: 81%;   
+    height: 54px;
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+    margin: 35px auto;
+}
+
+.logo{
+    font-family: 'Roboto';
+    font-weight: 900;
+    size: 24px;
+    padding: 10px;
+}
+
+.Main-page header nav {
+    width: 422px;
+    position: relative;
+    display: flex;          
+    justify-content: space-evenly; 
+    align-items: center;
+    padding: 10px;
+
+}
+
+.Main-page header nav a{
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.Main-page header nav .home{
+    font-weight: 700;
+    color: #FB9300;
+    margin:10px;
+}
+
+button{
+    width: 11%;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    border-radius: 100px;
+    background-color: #FB9300;
+    border-width: 0;
+
+    padding: 16px 46px; 
+
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.Main-page .Content{
+    width: 100%;
+    margin: 16px 0;
+
+    display: flex;
+    align-items: stretch;
+
+
+}
+
+.Main-page .Content .text{
+    width: 41%;
+
+    align-self: flex-start;
+    margin: 20px 2% 20px 10%;
+
+
+}
+
+.Main-page .Content .text .over-title{
+    width: 213px;
+
+    background-color: #FFF0DC;
+    border-width: 0;
+    border-radius: 100px;
+
+    align-self: start;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 16px;
+    color: #FB9300;
+
+} 
+
+.Main-page .Content .text .main-info {
+    width: 100%;
+
+    margin: 40px auto;
+
+}
+
+.Main-page .Content .text .main-info h1{
+    width: 100%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: 94px;
+    margin-bottom: 70px;
+
+    font-size: 72px;
+    font-weight: 700;
+    color:#575757;
+}
+
+.Main-page .Content .text .main-info p{
+    width: 100%;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    font-size: 20px;
+    font-weight: 500;
+    color:#828282;
+}
+
+.Main-page .Content .text button {
+    width: 192px;
+
+    padding: 24px 32px;
+
+    font-size: 18px;
+
+
+}
+
+.Main-page .Content .text .statistics{
+    width: 352px;
+    margin-top: 80px;
+
+    align-self: flex-start;
+
+    position: relative;
+    display: flex;          
+    align-items: center;
+    gap: 12px;
+}
+
+.Main-page .Content .text .statistics .statistic{
+    width: 85px;
+
+    align-self: flex-start;
+
+}
+
+.Main-page .Content .text .statistics .statistic .big-number{
+    font-size: 24px;
+    padding: 6px;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.Main-page .Content .text .statistics .statistic .description{
+
+    font-weight: 500;
+    color: #828282;
+    padding: 6px;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+
+.Main-page .Content .illustration{
+    width: 50%;
+
+    position: relative;
+
+    align-self: left;
+}
+
+.Main-page .Content .illustration .images{
+    position: relative;
+    width: 100%;
+}
+
+.Main-page .Content .illustration .images .heart-icon{
+    position: relative;
+    top: 24px;
+    left: 76%;
+}
+
+.Main-page .Content .illustration .images .woman-eating{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+}
+
+.Main-page .Content .illustration .images .dark{
+    position: absolute;
+    top: 65px;
+    left:0;
+    width: 95%;
+    height: auto;
+}
+
+.Main-page .Content .illustration .images .light{
+    position: absolute;
+    top: 80px;
+    left:10px;
+    width: 90%;
+    height: auto;
+}
+
+.Main-page .Content .illustration .images .background-circle-one {
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    width: 140px;
+}
+
+.Main-page .Content .illustration .images .background-circle-two {
+    position: absolute;
+    top: 180px;
+    left: 70%;
+    width: 140px;
+}
+
+.Main-page .Content .illustration .small-review {
+    position: absolute;
+    top: 77%;
+    left: 0;
+    margin: 1px;
+
+    border-radius: 35px;
+    border-width: 0;
+
+    display: flex;
+    align-items: center;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.Main-page .Content .illustration .small-review .review-emoji{
+    position: relative;
+    width: 60px;
+    margin: 5px;
+    margin-right: 10px;
+
+    align-self: center;
+}
+
+.Main-page .Content .illustration .small-review .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+
+    margin-top: 10px;
+}
+
+.Main-page .Content .illustration .small-review  .in-figure-title {
+    position: relative;
+
+}
+
+.Main-page .Content .illustration .small-review  .rating {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.Main-page .Content .illustration .small-review  .rating .star{
+    position: relative;
+    margin: 5px;
+
+    width: 14px;
+}
+
+.Main-page .Content .illustration .small-review .rating .rate{
+    position: relative;
+    margin-right: 5px;
+
+}
+
+.Main-page .Content .illustration .small-review .rating .rate-info{
+    position: relative;
+    margin-right: 5px;
+
+    font-weight: 400;
+}
+
+.Main-page .Content .illustration .calorie-statistic {
+    position: absolute;
+    top: 74%;
+    left: 53%;
+    width: 25%;
+    margin: 1px;
+
+    border-radius: 28px;
+    border-width: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.Main-page .Content .illustration .calorie-statistic .calorie-statistic-title{
+    margin: 10px;
+    margin-bottom: 0;
+
+    font-weight: 500;
+
+}
+
+.Main-page .Content .illustration .calorie-statistic .calorie-statistic-number{
+    font-size: 24px;
+
+    margin-left: 30px;
+    align-self: flex-start;
+}
+
+.Main-page .Content .illustration .calorie-statistic .calorie-statistic-number span{
+    color: #2B2B2B;
+}
+
+.Main-page .Content .illustration .calorie-statistic .calorie-chart {
+    position: relative;
+
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    width: 73%;
+    height: 73px; 
+    background: white;
+    padding: 10px;
+}
+
+.Main-page .Content .illustration .calorie-statistic .calorie-chart .calorie-intake {
+    width: 12%;
+    background: linear-gradient(to top, #ff9800, #ffcc80);
+    border-radius: 8px;
+    transition: height 0.3s ease-in-out;
+}
+
+
+.Main-page .Content .illustration .calorie-statistic .calorie-chart::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    
+    background: repeating-linear-gradient(
+        to right, 
+        rgba(200, 200, 200, 0.2) 0px, 
+        rgba(200, 200, 200, 0.2) 7%,
+        transparent 7%, 
+        transparent 12%
+        );
+
+    pointer-events: none;
+    border-radius: 8px;
+}
+
+.Why-us{
+    width:100%;
+    padding: 100px 0;
+}
+
+.Why-us .headlines{
+    width: 81%;
+    margin: 0 auto;
+    margin-bottom: 63px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-title{
+    width:50%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    font-size: 48px;
+    color: #585858;
+}
+
+.Why-us .headlines .standard-text{
+    width:38%;
+
+    font-weight: 500;
+    font-size: 20px;
+    color: #828282;
+
+}
+
+.cards {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+
+    width: 81%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.Why-us .cards article{
+    position: relative;
+    width: 30%;
+    
+    border-radius: 50px;
+    /* border-color: #FFF0DA; */
+    border: 1px solid #FFF0DA;
+
+    /* padding: 30px; */
+}
+
+.Why-us .cards article .icon {
+    width: 34%;
+    position: relative;
+
+    left: 8%;
+    top: 30px;
+}
+
+.Why-us .cards article .card-info{
+    margin: 70px 8% 25px 8%;
+}
+
+.Why-us .cards article .card-info .card-headline{
+    position: relative;
+
+    font-size: 24px;
+    color: #2B2B2B;
+}
+
+.Why-us .cards article .card-info .card-text{
+    position: relative;
+
+    font-weight: 400;
+    margin-top:12px;
+}
+
+.Why-us .cards article .card-info .card-link{ /*how do i make these links on the same level?*/
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 3%;
+
+    margin-top: 30px;
+    padding: 10px 3%;
+
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.Why-us .cards article .card-info .arrow{
+    width: 7%;
+}
+
+.Why-us .cards article .card-info button.card-link{
+    width:auto;
+
+    margin-top: 25px;
+    padding: 17px 7%;
+    color: #ffffff;
+}
+
+.Why-us .cards .highlighted {
+    box-shadow: 0 50px 90px -50px #976D00;
+}
+
+.Reviews {
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(to top, #FFE8C780, #FFF6EA);
+}
+
+.Reviews .Content {
+    width: 90%;
+
+    margin:120px 0 120px 10%;
+
+    display: flex;
+    align-items: center;
+}
+
+.Reviews .Content .reviews-headline{
+    width: 35%;
+
+    margin: 18px 7% 18px 0;
+    justify-self: left;
+    
+}
+
+.Reviews .Content .reviews-headline .page-title{
+    width: 100%;
+    color: #333333;
+
+    line-height: 64px;
+}
+
+.Reviews .Content .standard-text{
+    font-weight: 400;
+    color: #999999;
+    margin: 30px 0;
+}
+
+.Reviews .Content .review-number{
+    font-weight: 700;
+    color: #CCCCCC;
+    font-family: 'Raleway';
+}
+
+.Reviews .Content .review-number span{
+    font-size: 48px;
+    color: #333333;
+    
+}
+
+.Reviews .Content .review-nav-arrows{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+
+
+    width: 33%;
+    margin-top: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 18%;
+}
+
+.Reviews .Content .review-nav-arrows .arrow{
+    width: 41%;
+}
+
+.Reviews .Content .review-cards{
+    width: 70%;
+    
+    justify-self: right;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Reviews .Content .review-cards .review-card{
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 0px;
+
+    position: relative;
+}
+
+.Reviews .Content .review-cards .review-card .reviewer{
+    position: absolute;
+
+    width:33%;
+    top: -40px; /* (-10% ?) picture is too far from the card on narrow screen*/
+    left: 6%;
+}
+
+.Reviews .Content .review-cards .review-card .headline{
+    font-size: 24px;
+    font-weight: 500;
+    color: #2B2B2B;
+
+    margin: 100px auto 5px 10px;
+}
+
+.Reviews .Content .review-cards .review-card .yo{
+    font-size: 14px;
+    font-weight: 500;
+    color:#999999;
+
+    margin: 5px auto 10px 10px;
+}
+
+.Reviews .Content .review-cards .review-card p{
+    font-weight: 400;
+    margin: 15px 10px;
+}
+
+.Menu{
+    padding: 100px 0;
+}
+
+.Menu .menu-headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    width:80%;
+    margin: 0 auto 80px auto;
+}
+
+.mini-headline{
+    font-weight: 500;
+    font-size: 20px;
+    color: #FB9333;
+
+    padding: 8px;
+
+    position: relative;
+}
+
+.Menu .menu-headline .page-title{
+    width:100%;
+
+    margin-top: 5px;
+}
+
+.Menu .cards{
+    height: 521px;
+}
+
+.Menu .cards .menu-card {
+    height: fit-content;
+    width: fit-content;
+
+    border-radius: 50px;
+
+    position: relative;
+
+}
+
+.Menu .cards .menu-card .menu-card-img {
+    width: 100%;
+    height: auto;
+}
+
+.Menu .cards .menu-card .caption {
+    position: absolute;
+    top: 77%;
+    left: 11%;
+
+}
+
+.Menu .cards .menu-card .caption .menu-card-name {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    color: #FFFFFF;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.Menu .cards .menu-card .caption .menu-card-price {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.Subscription{
+    padding: 100px 0;
+}
+
+.Subscription .subscription-form{
+    display: flow-root;
+
+    width:80%;
+    height: auto;
+    margin: 0 auto;
+
+    border-radius: 50px;
+    border:0;
+
+    background-color: #FFF1DE;
+
+    position: relative;
+}
+
+.Subscription .subscription-form .background {
+    width: 100%;
+
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+}
+
+.Subscription .subscription-form .content{
+    width:60%;
+    margin: 48px auto 100px auto;
+}
+
+.Subscription .subscription-form .content .text{
+    text-align: center;
+    position: relative;
+
+    margin: 0 3% 80px 3%;
+}
+
+.Subscription .subscription-form .content .text .page-title{
+    width: 94%;
+    text-align: center;
+    margin: 5px auto;
+    padding: 2px;
+
+    line-height: 67px;
+}
+
+.Subscription .subscription-form .content .text .standard-text{
+    margin: 24px auto 0 auto;
+
+    font-weight: 500;
+}
+
+.Subscription .subscription-form .content form{
+    width: 100%;
+
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    opacity: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 80px;
+    padding: 8px;
+    z-index: 1;
+}
+
+.Subscription .subscription-form .content form .email{
+    border: none;
+    outline: none;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    opacity: 70%;
+
+    margin: 20px 4%;
+}
+
+.Subscription .subscription-form .content form .submit{
+    width: auto;
+    /* padding: 23px 16px; */
+}
+
+.Website-footer{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 51px auto;
+}
+
+.Website-footer .footer-info{
+    width: 15%;
+}
+
+.Website-footer .footer-info .logo{
+    margin-bottom: 20px;
+}
+
+.Website-footer .footer-info .standard-text{
+    width:100%;
+
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.Website-footer .footer-info .copyright-sign{
+    margin-top: 66px;
+
+    font-weight: 400;
+    color: #2B2B2B;
+}
+
+.Website-footer .footer-article{
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.Website-footer .footer-article .footer-headline{
+    color: #FB9333;
+    font-size: 16px;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.Website-footer .footer-article .standard-text{
+    font-weight: 400;
+    text-decoration: none;
+    color: #575757;
+}
+
+.Website-footer .footer-article .contact-info{
+    width:100%;
+
+    display: flex;
+    gap: 8%;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.Website-footer .footer-article .contact-info .contact-info-img{
+    width: 10%;
+
+    align-self: flex-start;
+}
+
+.Website-footer .footer-article .socials{
+    width:72%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+
+}
+
+.Website-footer .footer-article .socials .contact-info-img{
+    width: 17%;
+}
+
+
+/* Як зробити одне слово іншим кольором?
+Чи краще всюди класи, чи можна і без того? Я ж перебиваю тільки більш точними*/

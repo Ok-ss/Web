@@ -3,217 +3,240 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
         <title>Jez Salad</title>
     </head>
     <body>
         <main class="Main-page">
-            <header class="main-page-header">
-                <h3 class="logo">JEZ SALAD</h3>
+            <header class="header">
+                <h3 class="logo"> <span class="orange-text">JEZ</span> SALAD</h3>
                 <nav class="upper-nav">
-                    <a href="#" class="home-navigation"> Home </a>
+                    <a href="#" class="home"> Home </a>
                     <a href="#" class="page-navigation"> Menu </a>
                     <a href="#" class="page-navigation"> Contact </a>
                     <a href="#" class="page-navigation"> About us </a>
                 </nav>
-                <button class="sign-in-button"> Sign in </button>
+                <button class="sign-in-button"> Sign </button>
             </header>
-            <article class="main-page-text">
-                <!-- Possibly a separate section for span-button -->
-                <span class="over-main-page-title"> #1 Best Healthy Salad</span>
-                <h1 class="main-page-title"> Skip The Diet Just Eat Healthy With Jez Salad</h1>
-                <p class="standard-text"> Imagine you dont need a diet because we provide healthy and delicious food for you!</p>
-                <button class="standard-button"> Order Food </button>
-                <section class="statistics">
-                    <!-- Might group them as "all numbers" and "all words", 
-                        since they have the same styles -->
-                    <span class="statistic">
-                        <h5 class="big-number"> 5.000+ </h5>
-                        <p class="description"> Customer </p>
-                    </span>
-                    <span class="statistic">
-                        <h5 class="big-number"> 8.000+ </h5>
-                        <p class="description"> Delivery </p>
-                    </span>
-                    <span class="statistic">
-                        <h5 class="big-number"> 1.000+ </h5>
-                        <p class="description"> Ratings </p>
-                    </span>
-                </section>
-            </article>
-            <article class="main-page-illustration">
-                <section class="main-page-images">
-                    <img class="heart-icon" src="./MainPage/heart.svg">
-                    <img class="woman-eating" src="./MainPage/Woman.png">
-                    <img class="woman-eating-dark-background" src="./MainPage/dark backgroud.svg">
-                    <img class="woman-eating-light-background" src="./MainPage/light background.svg">
-                    <img class="woman-eating-background-circles" src="./MainPage/cloud.svg">
-                    <img class="woman-eating-background-circles" src="./MainPage/cloud.svg">
-                    <!-- Too many classes? -->
-                </section>
-                <figure class="small-review">
-                    <img class="review-emoji" src="./MainPage/ya.svg">
-                    <figcaption class="in-figure-title"> Our Happy Customer</figcaption>
-                    <figure class="rating">
-                        <img class="star" src="./MainPage/Star.svg">
-                        <figcaption class="rate"> 4.9 </figcaption>
-                        <figcaption class="rate-info"> (1.989 Reviews) </figcaption>
+            <main class="Content">
+                <article class="text">
+                    <!-- Possibly a separate section for span-button -->
+                    <span class="over-title"> #1 Best Healthy Salad</span>
+                    <section class="main-info">
+                        <h1 class="main-page-title"> <span class="orange-text">Skip</span> The Diet, Just Eat Healthy With Jez Salad</h1>
+                        <p class="standard-text"> Imagine you dont need a diet because we provide healthy and delicious food for you!</p>
+                    </section>
+                    <button class="standard-button"> Order Food </button>
+                    <section class="statistics">
+                        <span class="statistic">
+                            <h5 class="big-number"> 5.000+ </h5>
+                            <p class="description"> Customer </p>
+                        </span>
+                        <span class="statistic">
+                            <h5 class="big-number"> 8.000+ </h5>
+                            <p class="description"> Delivery </p>
+                        </span>
+                        <span class="statistic">
+                            <h5 class="big-number"> 1.000+ </h5>
+                            <p class="description"> Ratings </p>
+                        </span>
+                    </section>
+                </article>
+                <article class="illustration">
+                    <section class="images">
+                        <img class="background-circle-one" src="./MainPage/cloud.svg">
+                        <img class="background-circle-two" src="./MainPage/cloud.svg">
+                        <img class="woman-eating-background light" src="./MainPage/light background.svg">
+                        <img class="dark" src="./MainPage/dark backgroud.svg">
+                        <img class="woman-eating" src="./MainPage/Woman.png">
+                        <img class="heart-icon" src="./MainPage/heart.svg">
+                    </section>
+                    <figure class="small-review">
+                        <img class="review-emoji" src="./MainPage/ya.svg">
+                        <figure class="content">
+                            <figcaption class="in-figure-title"> Our Happy Customer</figcaption>
+                            <figure class="rating">
+                                <img class="star" src="./MainPage/Star.svg">
+                                <figcaption class="rate"> 4.9 </figcaption>
+                                <figcaption class="rate-info"> (1.989 Reviews) </figcaption>
+                            </figure>
+                        </figure>
                     </figure>
-                </figure>
-                <figure class="calorie-statistic">
-                    <figcaption class="calorie-statistic-title">Daily Calories</figcaption>
-                    <figcaption class="calorie-statistic-number"> 123 Cal </figcaption>
-                    <progress class="calorie-intake" value="32"></progress>
-                    <progress class="calorie-intake" value="41"></progress>
-                    <progress class="calorie-intake" value="62"></progress>
-                    <progress class="calorie-intake" value="51"></progress>
-                    <progress class="calorie-intake" value="41"></progress>
-                    <progress class="calorie-intake" value="72"></progress>
-                    <progress class="calorie-intake" value="81"></progress>
-                    <progress class="calorie-intake" value="91"></progress>
-                </figure>
-            </article>
+                    <figure class="calorie-statistic">
+                        <figcaption class="calorie-statistic-title">Daily Calories</figcaption>
+                        <figcaption class="calorie-statistic-number"> <span>123</span> Cal </figcaption>
+                        <figure class="calorie-chart">
+                            <div class="calorie-intake" style="height: 41%;"></div>
+                            <div class="calorie-intake" style="height: 62%;"></div>
+                            <div class="calorie-intake" style="height: 81%;"></div>
+                            <div class="calorie-intake" style="height: 51%;"></div>
+                            <div class="calorie-intake" style="height: 72%;"></div>
+                            <div class="calorie-intake" style="height: 91%;"></div>
+                            <div class="calorie-intake" style="height: 62%;"></div>
+                            <div class="calorie-intake" style="height: 100%;"></div>
+                        </figure>
+                    </figure>
+                </article>
+            </main>
         </main>
-        <main class="why-us">
-            <header class="why-us-headlines">
-                <h2 class="page-title"> WHY CHOOSE US FOR YOUR HEALTHY FOOD</h1>
+        <main class="Why-us">
+            <header class="headlines">
+                <h2 class="page-title"> WHY CHOOSE US FOR <span class="orange-text">YOUR HEALTHY FOOD</span> </h1>
                 <p class="standard-text">We continue to consistently choose 
                     and maintain the quality of the fruit served, so that 
                     it remains fresh and nutritious when you eat it.
                 </p>
             </header>
-            <main class="why-us-cards">
+            <main class="cards">
                 <article class="why-us-card">
-                    <img class="why-us-card-icon" src="./WhyUs/City.svg">
-                    <h3 class="why-us-card-headline"> Own fruit orchard </h3>
-                    <p class="why-us-card-text"> 
-                        Langsung dari Kebun Sendiri yang 
-                        tersebar di setiap provinsi yang 
-                        memiliki cabang toko Jez Salad</p>
-                    <a href="#" class="why-us-card-link"> Learn more 
-                        <img class="why-us-card-arrow" src="./WhyUs/Arrow.png">
-                    </a>
+                    <img class="icon" src="./WhyUs/City.svg">
+                    <section class="card-info">
+                        <h3 class="card-headline"> Own fruit orchard </h3>
+                        <p class="card-text"> 
+                            Langsung dari Kebun Sendiri yang 
+                            tersebar di setiap provinsi yang 
+                            memiliki cabang toko Jez Salad</p>
+                        <a href="#" class="card-link"> Learn more 
+                            <img class="arrow" src="./WhyUs/Arrow.png">
+                        </a>
+                    </section>
                 </article>
-                <article class="why-us-card-highlighted"> <!-- join with anothe class if necessary -->
-                    <img class="why-us-card-icon" src="./WhyUs/No1.svg">
-                    <h3 class="why-us-card-headline"> #1 Healthy Fruit Salad</h3>
-                    <p class="why-us-card-text"> 
-                        The pioneer of healthy food salads that 
-                        are delicious & suitable for all people 
-                        with the best quality assurance</p>
-                    <button class="why-us-card-button"> Learn more 
-                        <img class="why-us-card-arrow" src="./WhyUs/Arrow.png">
-                    </button>
+                <article class="why-us-card highlighted">
+                    <img class="icon" src="./WhyUs/No1.svg">
+                    <section class="card-info">
+                        <h3 class="card-headline"> #1 Healthy Fruit Salad</h3>
+                        <p class="card-text"> 
+                            The pioneer of healthy food salads that 
+                            are delicious & suitable for all people 
+                            with the best quality assurance</p>
+                        <button class="card-link"> Learn more 
+                            <img class="arrow" src="./WhyUs/Arrow White.svg">
+                        </button>
+                    </section>
                 </article>
                 <article class="why-us-card">
-                    <img class="why-us-card-icon" src="./WhyUs/Cup.svg">
-                    <h3 class="why-us-card-headline"> 100 Top Brand </h3>
-                    <p class="why-us-card-text"> 
-                        We are one of the best brends in the  
-                        Food and Beverage sector
-                        in Indonesia</p>
-                    <a href="#" class="why-us-card-link"> Learn more 
-                        <img class="why-us-card-arrow" src="./WhyUs/Arrow.png">
-                    </a>
+                    <img class="icon" src="./WhyUs/Cup.svg">
+                    <section class="card-info">
+                        <h3 class="card-headline"> 100 Top Brand </h3>
+                        <p class="card-text"> 
+                            We are one of the best brends in the  
+                            Food and Beverage sector
+                            in Indonesia</p>
+                        <a href="#" class="card-link"> Learn more 
+                            <img class="arrow" src="./WhyUs/Arrow.png">
+                        </a>
+                    </section>
                 </article>
             </main>
         </main>
-        <main class="reviews">
-            <article class="reviews-headline"> <!-- Technically it might be a header, but it is not at the top !-->
-                <h2 class="reviwew-page-title"> What Are People Saying About Us </h1>
-                <p class="standard-text"> We are very heapy if you are satisfied with our
-                    service and products, let's read pure reviews from
-                    customers who bought our products.
-                </p>
-                <nav class="review-number">02/05</nav>
-                <figure>
-                    <img class="review-nav-arrow" src="./Reviews/Previous Button.svg">
-                    <img class="review-nav-arrow" src="./Reviews/Next Button.svg">
-                </figure>
-            </article>
-            <main class="review-cards">
-                <article class="review-card">
-                    <img class="reviewer" src="./Reviews/Pers1.png"> <!-- might need to put this in a separate block to make some changes later (rounded corners)-->
-                    <h3 class="review-card-headline"> Selena Gomz </h3> 
-                    <!-- it has the same font as why-us cards title, but may need some other styling -->
-                    <span class="review-card-yo"> 22 Years</span>
-                    <p class="review-card-text"> 
-                        The salad is fresh!!! Don't ask
-                        about the sauce again, it's 
-                        really delicious, it's going to 
-                        be a routine. I  recommend this 
-                        salad to all of you guys! 
-                        because they really take 
-                        care of the quality </p>
+        <main class="Reviews">
+            <main class="Content">
+                <article class="reviews-headline"> <!-- Technically it might be a header, but it is not at the top !-->
+                    <h2 class="page-title"> What Are People Saying <span class="orange-text">About Us</span> </h1>
+                    <p class="standard-text"> We are very heapy if you are satisfied with our
+                        service and products, let's read pure reviews from
+                        customers who bought our products.
+                    </p>
+                    <nav class="review-number"><span>02</span>/05</nav>
+                    <figure class="review-nav-arrows">
+                        <img class="arrow" src="./Reviews/Previous Button.svg">
+                        <img class="arrow" src="./Reviews/Next Button.svg">
+                    </figure>
                 </article>
-                <article class="review-card">
-                    <img class="reviewer" src="./Reviews/Pers2png"> 
-                    <h3 class="review-card-headline"> David Ken </h3> 
-                    <span class="review-card-yo"> 24 Years</span>
-                    <p class="review-card-text"> 
-                        The salad is fresh!!! Don't ask
-                        about the sauce again, it's 
-                        really delicious, it's going to 
-                        be a routine. I  recommend this 
-                        salad to all of you guys! 
-                        because they really take 
-                        care of the quality </p>
-                </article>
-                <article class="review-card">
-                    <img class="reviewer" src="./Reviews/Pers3.png">
-                    <h3 class="review-card-headline"> Jennifer Sina </h3> 
-                    <span class="review-card-yo"> 21 Years</span>
-                    <p class="review-card-text"> 
-                        The salad is fresh!!! Don't ask
-                        about the sauce again, it's 
-                        really delicious, it's going to 
-                        be a routine. I  recommend this 
-                        salad to all of you guys! 
-                        because they really take 
-                        care of the quality </p>
-                </article>
+                <main class="review-cards">
+                    <article class="review-card">
+                        <img class="reviewer" src="./Reviews/Pers1.png"> <!-- might need to put this in a separate block to make some changes later (rounded corners)-->
+                        <h3 class="headline"> Selena Gomz </h3> 
+                        <!-- it has the same font as why-us cards title, but may need some other styling -->
+                        <span class="yo"> 22 Years</span>
+                        <p class="review-card-text"> 
+                            The salad is fresh!!! Don't ask
+                            about the sauce again, it's 
+                            really delicious, it's going to 
+                            be a routine. I  recommend this 
+                            salad to all of you guys! 
+                            because they really take 
+                            care of the quality </p>
+                    </article>
+                    <article class="review-card">
+                        <img class="reviewer" src="./Reviews/Pers2.png"> 
+                        <h3 class="headline"> David Ken </h3> 
+                        <span class="yo"> 24 Years</span>
+                        <p class="review-card-text"> 
+                            The salad is fresh!!! Don't ask
+                            about the sauce again, it's 
+                            really delicious, it's going to 
+                            be a routine. I  recommend this 
+                            salad to all of you guys! 
+                            because they really take 
+                            care of the quality </p>
+                    </article>
+                    <article class="review-card">
+                        <img class="reviewer" src="./Reviews/Pers3.png">
+                        <h3 class="headline"> Jennifer Sina </h3> 
+                        <span class="yo"> 21 Years</span>
+                        <p class="review-card-text"> 
+                            The salad is fresh!!! Don't ask
+                            about the sauce again, it's 
+                            really delicious, it's going to 
+                            be a routine. I  recommend this 
+                            salad to all of you guys! 
+                            because they really take 
+                            care of the quality </p>
+                    </article>
+                </main>
             </main>
         </main>
-        <main class="menu">
+        <main class="Menu">
             <header class="menu-headline">
                 <span class="mini-headline"> MENU YANG MEMBUATMU JATUH CINTA </span>
-                <h2 class="page-title">ENJOY THE BEST MENU AND GET DISCOUNTS AVALIABLE</h1>
+                <h2 class="page-title">ENJOY THE BEST MENU AND GET <span class="orange-text">DISCOUNTS</span> AVALIABLE</h1>
             </header>
-            <main class="menu-cards"> <!-- similar why-us-cards (maybe make them the same class in the future) -->
-                <figure class="menu-card">
-                    <img class="menu-card-img" src="./Menu/dish1.png">
-                    <h6 class="menu-card-name"> Mini Salad Yummy </h6>
-                    <h4 class="menu-card-price"> $2.99 </h4>
-                </figure>
+            <main class="cards">
                 <figure class="menu-card">
                     <img class="menu-card-img" src="./Menu/dish2.png">
-                    <h6 class="menu-card-name"> Completed Salad </h6>
-                    <h4 class="menu-card-price"> $3.99 </h4>
+                    <figcaption class="caption">
+                        <h6 class="menu-card-name"> Mini Salad Yummy </h6>
+                        <h4 class="menu-card-price"> $2.99 </h4>
+                    </figcaption>
+                </figure>
+                <figure class="menu-card">
+                    <img class="menu-card-img" src="./Menu/dish1.png">
+                    <figcaption class="caption">
+                        <h6 class="menu-card-name"> Completed Salad </h6>
+                        <h4 class="menu-card-price"> $3.99 </h4>
+                    </figcaption>
                 </figure>
                 <figure class="menu-card">
                     <img class="menu-card-img" src="./Menu/dish3.png">
-                    <h6 class="menu-card-name"> Salad Yummy Red </h6>
-                    <h4 class="menu-card-price"> $3.99 </h4>
+                    <figcaption class="caption">
+                        <h6 class="menu-card-name"> Salad Yummy Red </h6>
+                        <h4 class="menu-card-price"> $3.99 </h4>
+                    </figcaption>
                 </figure>
             </main>
         </main>
-        <main class="subscription">
+        <main class="Subscription">
             <figure class="subscription-form">
-                <img class="subscription-form-background" src="./Subscribe/Background.svg">
-                <section class="subscription-form-text">
-                    <span class="mini-headline"> Our Subscribe </span>
-                    <h2 class="page-title"> Subscribe To Get The Latest Promo from Jez Salad</h1>
-                        <p class="standard-text"> We recommended you to subscribe to our promo program,<br>
-                        drop your email below to get daily update about us</p>
-                </section>
-                <form class="subscription" action="#">
-                    <input type="email" name="email-for-subscription" placeholder="Enter your email address">
-                    <input type="submit" value="Subscribe">
-                </form>
+                <img class="background" src="./Subscribe/Background.svg">
+                <article class="content">
+                    <section class="text">
+                        <span class="mini-headline"> Our Subscribe </span>
+                        <h2 class="page-title"> Subscribe To Get The Latest Promo from Jez Salad</h1>
+                            <p class="standard-text"> We recommended you to subscribe to our promo program,<br>
+                            drop your email below to get daily update about us</p>
+                    </section>
+                    <form class="subscription" action="#">
+                        <input class="email" type="email" name="email-for-subscription" placeholder="Enter your email address">
+                        <button class="submit" type="submit"> Subscribe </button>
+                    </form>
+                </article>
             </figure>
         </main>
-        <footer class="website-footer">
+        <footer class="Website-footer">
             <article class="footer-info">
-                <h3 class="logo"> JEZ SALAD </h3>
+                <h3 class="logo"> <span class="orange-text">JEZ</span> SALAD </h3>
                 <p class="standard-text"> Jez Salad is the pioneer of 
                     healthy fruit salad with 
                     high nutrition.
@@ -247,8 +270,8 @@
                     <img class="contact-info-img" src="./Footer/twitter.svg">
                     <img class="contact-info-img" src="./Footer/linkedin.svg">
                     <img class="contact-info-img" src="./Footer/instagram.svg">
-                    <figcaption class="standard-text"> Folow our social media </figcaption>
                 </figure>
+                <figcaption class="standard-text"> Folow our social media </figcaption>
             </article>
         </footer>
     </body>
